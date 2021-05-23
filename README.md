@@ -1,6 +1,6 @@
 # NewCovidApp
 
-A new Flutter project.
+Aplicativo de monitoramente de Casos de Covid-19
 
 ## Getting Started
 
