@@ -1,0 +1,48 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d emulator-5554 --track-widget-creation --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url
+
+## exception
+
+SocketException: SocketException: OS Error: Um pedido para enviar ou receber dados não foi permitido porque o socket não está ligado e (durante o envio num socket de datagrama utilizando uma chamada sendto) não foi fornecido um endereço.
+, errno = 10057, address = 127.0.0.1, port = 59781
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 1.20.3, on Microsoft Windows [Version 10.0.18362.1082], locale pt-BR)
+    • Flutter version 1.20.3 at C:\Flutter20\flutter
+    • Framework revision 216dee60c0 (9 days ago), 2020-09-01 12:24:47 -0700
+    • Engine revision d1bc06f032
+    • Dart version 2.9.2
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+    • Android SDK at C:\Users\Ildeberto Silva\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.2
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    ✗ Android license status unknown.
+      Try re-installing or updating your Android SDK Manager.
+      See https://developer.android.com/studio/#downloads or visit https://flutter.dev/docs/get-started/install/windows#android-setup for detailed instructions.
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 48.1.2
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] VS Code (version 1.48.2)
+    • VS Code at C:\Users\Ildeberto Silva\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.14.1
+
+[✓] Connected device (1 available)
+    • Android SDK built for x86 (mobile) • emulator-5554 • android-x86 • Android 6.0 (API 23) (emulator)
+
+! Doctor found issues in 1 category.
+```
